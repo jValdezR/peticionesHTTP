@@ -1,3 +1,5 @@
-import { obtenerChiste } from './js/http-provider'
+import {init} from './js/chistes'
 
-obtenerChiste().then(console.log)
+
+init();
+
