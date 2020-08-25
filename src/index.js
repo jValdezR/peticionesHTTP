@@ -7,18 +7,22 @@
 
 // obtenerUsuarios().then(console.log);
 
-import * as CRUD from './js/crud'
+// import * as CRUD from './js/crud'
 
-CRUD.getUsuario(2).then(console.log);
+// CRUD.getUsuario(2).then(console.log);
 
-CRUD.crearUsuario({
-    name: 'Dany',
-    job: 'Developer'
-}).then(console.log)
+// CRUD.crearUsuario({
+//     name: 'Dany',
+//     job: 'Developer'
+// }).then(console.log)
 
-CRUD.actualizarUsuario(1,{
-    name: 'Faty',
-    job: 'Administer'
-}).then(console.log);
+// CRUD.actualizarUsuario(1,{
+//     name: 'Faty',
+//     job: 'Administer'
+// }).then(console.log);
 
-CRUD.borrarUsuario(1).then(console.log);
+// CRUD.borrarUsuario(1).then(console.log);
+
+import {init} from './js/archivos-page'
+
+init()
